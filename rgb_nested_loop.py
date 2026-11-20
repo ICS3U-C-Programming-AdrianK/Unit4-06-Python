@@ -7,8 +7,14 @@
 def main():
     # set the red loop
     for r in range(0, 11):
+        
+        # set green loop
         for g in range(0, 11):
+            
+            # set blue loop
             for b in range(0, 11):
+                
+                # display colour
                 print(
                     "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
                         r, g, b, "RGB(" + str(r) + "," + str(g) + "," + str(b) + ")"
