@@ -6,9 +6,9 @@
 
 def main():
     # set the red loop
-    for r in range(0, 10):
-        for g in range(0, 10):
-            for b in range(0, 10):
+    for r in range(0, 11):
+        for g in range(0, 11):
+            for b in range(0, 11):
                 print(
                     "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
                         r, g, b, "RGB(" + str(r) + "," + str(g) + "," + str(b) + ")"
